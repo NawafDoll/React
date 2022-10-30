@@ -1,2 +1,2 @@
 # React-HW1
-HomeWork on Master
+HomeWork on the Master
