@@ -9,3 +9,17 @@
   background-color: rgb(59, 59, 209);
   color: aqua;
 }
+
+.parentLog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 60vw;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 3px 3px gray;
+  margin-top: 50px;
+}
+.inputs{
+  width: 60%;
+}
