@@ -1,8 +1,9 @@
 .parent{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px;
+  gap: 17px;
+  width: 100%;
+  justify-content: center;
 }
 
 .footer{

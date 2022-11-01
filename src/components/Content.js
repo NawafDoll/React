@@ -9,9 +9,11 @@ import {
     Stack,
     Button,
     useColorModeValue,
+    Input,
   } from '@chakra-ui/react';
+  import React from 'react';
   
-  export default function SocialProfileWithImage(props) {
+  export function Content(props) {
 
 
     let a= props.regester
@@ -21,9 +23,16 @@ import {
         a = "Not Available"
     }
 
-
+    
+{let x =  [props.CampType]
+let arr = x.filter((e)=>e)
+console.log(arr)}
+    
     return (
+      <div>
+      
       <Center py={6}>
+        
         <Box
           maxW={'270px'}
           w={'full'}
@@ -81,5 +90,10 @@ import {
           </Box>
         </Box>
       </Center>
+      </div>
     );
   }
+
+ 
+
+  
