@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import {
   Box,
   Flex,
@@ -7,7 +9,6 @@ import {
   Stack,
   Collapse,
   Icon,
-  Link,
   Popover,
   PopoverTrigger,
   PopoverContent,
@@ -16,6 +17,7 @@ import {
   useDisclosure,
   Img
 } from '@chakra-ui/react';
+
 import {
   HamburgerIcon,
   CloseIcon,
@@ -92,6 +94,7 @@ export default function WithSubnavigation(props) {
             }}>
             Sign Up
           </Button>
+          <Link to="/LogIn.js"> login</Link>
         </Stack>
       </Flex>
 

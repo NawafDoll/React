@@ -4,15 +4,18 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ChakraProvider} from '@chakra-ui/react'
-
-
+import {BrowserRouter as Router} from "react-router-dom"
+import LogIn from './components/LogIn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  
+  <Router>
   <ChakraProvider>
     <App />
     </ChakraProvider>
+    </Router>
       </>
 );
 

@@ -13,7 +13,7 @@ import {
   } from '@chakra-ui/react';
   import React from 'react';
   
-  export function Content(props) {
+  export default function Content(props) {
 
 
     let a= props.regester
@@ -30,8 +30,10 @@ console.log(arr)}
     
     return (
       <div>
+
+        Content Page
       
-      <Center py={6}>
+      {/* <Center py={6}>
         
         <Box
           maxW={'270px'}
@@ -89,7 +91,7 @@ console.log(arr)}
             </Button>
           </Box>
         </Box>
-      </Center>
+      </Center> */}
       </div>
     );
   }
