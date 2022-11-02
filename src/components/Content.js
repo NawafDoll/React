@@ -30,10 +30,10 @@ console.log(arr)}
     
     return (
       <div>
-
-        Content Page
+        lmllll;;
+       
       
-      {/* <Center py={6}>
+       {/* <Center py={6}>
         
         <Box
           maxW={'270px'}
@@ -91,11 +91,10 @@ console.log(arr)}
             </Button>
           </Box>
         </Box>
-      </Center> */}
+      </Center>  */}
       </div>
     );
   }
 
  
 
-  

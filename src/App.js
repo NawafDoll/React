@@ -3,12 +3,14 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import {Content} from './components/Content';
+import Content from './components/Content';
 import Footer from './components/Footer';
 import Header from './components/Header'
 import LogIn from './components/LogIn';
 import Routers from './components/Routers';
 import Searching from "./components/Searching";
+import API from './components/API';
+import Create from './components/Create';
 
 // import {BrowserRouter as Router} from "react-router-dom"
 
@@ -17,13 +19,17 @@ function App() {
       
   return (
     <div >
-           
+         
 
-      <Routers />
+      {/* <Routers /> */}
       
-       
-      {/* <Searching />
-      <div className='parent'>
+       {/* <Header/> */}
+
+      <Create />
+      <API />
+      {/* <Searching /> */}
+
+      {/* <div className='parent'>
       <Content regester={true} type="FullStack" CampType="JavaScript" logo="Unofficial_JavaScript_logo_2.png.svg" disc="The camp aims to develop beginners in the field of web applications using the JavaScript language, starting from learning the basics of web applications to building a project."/>
       <Content regester={false} type="Deep Course" CampType="UI/UX" logo="pngwing.com.png" disc="Trainees in this course will learn Excel spreadsheet skills, and deal with basic and advanced functions in the program."/>
       <Content regester={true} type="Deep Course" CampType="Excel" logo="excel-png-download-5945.png" disc="UI / UX Course We start with the basics of UI until the stages of mastery with Figma and read the year of UX"/>
@@ -42,14 +48,15 @@ function App() {
       <Content regester={true} type="Deep Course" CampType="Chakra UI" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM1jtiFb4ID0OlqaZLtPuVblTqX6BQJdUlNNbHYxcK5w&s" disc="UI / UX Course We start with the basics of UI until the stages of mastery with Figma and read the year of UX"/>
 
       
-      
-      </div>
+       */}
+      {/* </div> */}
       
       <div className='footer'>
-      <Footer />
-      </div> */}
+      {/* <Footer /> */}
+      </div> 
     </div>
   );
 
   }
+
 export default App;
